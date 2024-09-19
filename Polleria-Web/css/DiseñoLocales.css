@@ -1,0 +1,83 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+}
+
+.locales {
+    background-color: #000000;
+    padding: 20px;
+    background-color: #000000;
+    padding: 2%; /* Ajusta el padding en porcentaje para mayor adaptabilidad */
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    color: #fbe7c5;
+    font-size: 35px;
+    font-family: "Laski";
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main {
+    max-width: 100%; /* El contenido se adapta al ancho de la pantalla */
+    padding: 2%; /* Ajusta el padding en porcentaje para mayor adaptabilidad */
+}
+
+/* Estilos para los elementos .local */
+.local1 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 2%; /* Ajusta el margen en porcentaje */
+    padding: 2%; /* Ajusta el padding en porcentaje para mayor adaptabilidad */
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente en pantallas pequeñas */
+}
+
+.local2 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 2%; /* Ajusta el margen en porcentaje */
+    padding: 2%; /* Ajusta el padding en porcentaje para mayor adaptabilidad */
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente en pantallas pequeñas */
+}
+
+.local3 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 2%; /* Ajusta el margen en porcentaje */
+    padding: 2%; /* Ajusta el padding en porcentaje para mayor adaptabilidad */
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente en pantallas pequeñas */
+}
+
+.icon_sede img {
+    width: 20px; /* Ancho de la imagen del icono */
+    height: auto; /* Altura ajustada automáticamente */
+    margin-right: 10px;
+}
+
+.DirSede {
+    font-size: 1rem;
+    color: #555;
+}
+
+.TelSede {
+    font-size: 1rem;
+    color: #555;
+}
+
+.ubicLocal a {
+    text-decoration: none;
+    color: #D5352D;
+    text-decoration: underline;
+}
+
+/* Añade un estilo para manejar el desbordamiento horizontal en pantallas pequeñas */
+@media (max-width: 768px) {
+    main {
+        overflow-x: auto; /* Agrega barras de desplazamiento horizontal */
+    }
+}
+
+

@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+    body {
+       
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #FDF6E9;
+    }
+
+
+
+.wrapper {
+    width: 450px;
+    background: #fff;
+    color: #333;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    text-align: center;
+    margin: 50px auto;
+
+}
+
+.wrapper h1 {
+    color: #000000;
+    font-family: "cera-pro-bold";
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    display: block;
+
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.wrapper h2 {
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    font-family: "cera-pro-regular";
+    font-weight: 300;
+    margin-bottom: 15px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #000;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.input-box {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.input-box label {
+    color: #000000;
+    font-size: 10.5px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Agregamos negrita */
+    font-family: "cera-pro-bold"; /* Usamos la fuente "cera-pro-bold" */
+
+}
+
+.input-box input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    font-size: 11.5px;
+    padding: 10px;
+    color: #333;
+    outline: none;
+    font-family: "cera-pro-medium";
+
+
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: 15px 0;
+}
+
+.remember-forgot label {
+    display: flex;
+    align-items: center;
+
+}
+
+.remember-forgot label input{
+    accent-color: #333;
+    margin-right:3px;
+}
+.remember-forgot a {
+    color: #333;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+    background-color: #d5352e;
+    color: #ffffff;
+    border: solid 1px #d5352e;
+}
+
+.btnn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+    font-family: "Laski";
+    background-color: #334d90;
+    color: #ffffff;
+    border: solid 1px #334d90;
+
+}
+
+.register-link {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-link a {
+    color: #d5352d;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+.through-back{
+    letter-spacing: 2px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0 10px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+.through-back span{
+    position: relative;
+    padding: 0 30px;
+
+
+}
+
+.through-back span:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -100vw;
+    bottom: 0;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.2);
+    height: 1px;
+    margin: auto;
+    z-index: 1;
+}
+
+.through-back span:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100vw;
+    bottom: 0;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.2);
+    height: 1px;
+    margin: auto;
+    z-index: 1;
+}

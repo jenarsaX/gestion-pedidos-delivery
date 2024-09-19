@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FDF6E9;
+    margin: 0;
+    padding: 0;
+}
+.tituloform{
+    background-color: #000000;
+    padding: 20px;
+    background-color: #000000;
+    padding: 2%; /* Ajusta el padding en porcentaje para mayor adaptabilidad */
+    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    color: #fbe7c5;
+    font-size: 35px;
+    font-family: "Laski";
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.container-formulario {
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.descripcion {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.formulario-sugerencias {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-sugerencia, .textarea-sugerencia, .boton-enviar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.textarea-sugerencia {
+    resize: vertical;
+}
+
+.boton-enviar {
+    background-color: #D5352D;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.boton-enviar:hover {
+    background-color: #890C1B;
+}
+
+label {
+    font-weight: bold;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+label, input, textarea {
+    display: block;
+}
+
+label[for="imagen"] {
+    margin-top: 20px;
+}
+
+#agregar-imagen, #eliminar-imagen {
+    background-color: #fff;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#agregar-imagen:hover, #eliminar-imagen:hover {
+    color: red;
+}

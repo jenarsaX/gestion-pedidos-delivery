@@ -1,0 +1,57 @@
+.body {
+    background-color: #FAE7C5;
+}
+.container{
+    max-width: 120rem;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    position: relative;
+}
+.header-section div{
+    position: relative;
+}
+
+.promocioness{
+    padding-top: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.proms{
+    max-width: 250px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    padding-bottom: 34px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+.proms img{
+    width: 100%;
+    display: flex;
+}
+
+.proms div{
+    position: relative;
+}
+.proms a {
+    font-family: system-ui;
+    text-decoration: none;
+    background: red;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.proms a:hover{
+    background: #fff;
+    color: red;
+    border: solid 2px red;
+    transition-duration: .3s;
+}
